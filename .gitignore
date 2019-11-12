@@ -1,0 +1,8 @@
+*.png
+*.exr
+*.txt
+*.log
+*.pyd
+test/
+test-64/
+./Mitsuba
