@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene version="0.5.0">
+  <integrator type="path"/>
+
+  <sensor type="orthographic">
+    <transform name="toWorld">
+      <scale x="{}" y="{}"/>
+      <lookat origin="{}, {}, {}" target="{}, {}, {}" up="{}"/>
+    </transform>
+    <film type="hdrfilm">
+        <integer name="width" value="{}"/>
+        <integer name="height" value="{}"/>
+    </film>
+  </sensor>
+
+  <shape type="obj">
+    <string name="filename" value="{}"/>
+  </shape>
+
+  <emitter type="constant">
+  </emitter>
+
+</scene>
